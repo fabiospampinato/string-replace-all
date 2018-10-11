@@ -35,7 +35,11 @@
     "type": "git",
     "url": "https://github.com/fabiospampinato/string-replace-all.git"
   },
-  "keywords": [],
+  "keywords": [
+    "string",
+    "replace",
+    "all"
+  ],
   "dependencies": {
     "@types/lodash": "^4.14.58",
     "lodash": "^4.17.4"
