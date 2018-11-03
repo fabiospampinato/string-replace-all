@@ -1,8 +1,5 @@
 # stringReplaceAll
 
-![Issues](https://img.shields.io/github/issues/fabiospampinato/string-replace-all.svg)
-[![NPM version](https://img.shields.io/npm/v/string-replace-all.svg)](https://www.npmjs.com/package/string-replace-all)
-
 Replaces all the occurrences of a string into a string with another string.
 
 ## Install
