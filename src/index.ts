@@ -1,13 +1,13 @@
 
 /* IMPORT */
 
-import * as _ from 'lodash';
+import escapeRegExp = require ( 'lodash/escapeRegExp' );
 
 /* STRING REPLACE ALL */
 
 function stringReplaceAll ( str: string, find: string, replacement: string ): string {
 
-  return str.replace ( new RegExp ( _.escapeRegExp ( find ), 'g' ), replacement );
+  return str.replace ( new RegExp ( escapeRegExp ( find ), 'g' ), replacement );
 
 }
 
