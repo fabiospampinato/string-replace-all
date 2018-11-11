@@ -13,4 +13,4 @@ function stringReplaceAll ( str: string, find: string, replacement: string ): st
 
 /* EXPORT */
 
-export = Object.assign ( stringReplaceAll, { default: stringReplaceAll } );
+export default stringReplaceAll;
