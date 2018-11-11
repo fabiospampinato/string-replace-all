@@ -1,6 +1,6 @@
 {
   "name": "string-replace-all",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Replaces all the occurrences of a string into a string with another string.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
