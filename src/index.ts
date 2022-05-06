@@ -1,16 +1,16 @@
 
 /* IMPORT */
 
-import escapeRegExp = require ( 'lodash/escapeRegExp' );
+import escape from 'string-escape-regex';
 
-/* STRING REPLACE ALL */
+/* MAIN */
 
-function stringReplaceAll ( str: string, find: string, replacement: string ): string {
+const replaceAll = ( str: string, find: string, replacement: string ): string => {
 
-  return str.replace ( new RegExp ( escapeRegExp ( find ), 'g' ), replacement );
+  return str.replace ( new RegExp ( escape ( find ), 'g' ), replacement );
 
-}
+};
 
 /* EXPORT */
 
-export default stringReplaceAll;
+export default replaceAll;

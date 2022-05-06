@@ -1,10 +1,10 @@
 
 /* IMPORT */
 
-import {describe} from 'ava-spec';
-import stringReplaceAll from '../dist';
+import {describe} from 'fava';
+import stringReplaceAll from '../dist/index.js';
 
-/* STRING REPLACE ALL */
+/* MAIN */
 
 describe ( 'stringReplaceAll', it => {
 
