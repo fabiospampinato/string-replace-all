@@ -2,7 +2,7 @@
   "name": "string-replace-all",
   "repository": "github:fabiospampinato/string-replace-all",
   "description": "Replaces all the occurrences of a string into a string with another string.",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
